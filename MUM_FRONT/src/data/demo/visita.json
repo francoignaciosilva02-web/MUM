@@ -1,0 +1,17 @@
+{
+  "estado": "aprobado",
+  "recomendaciones": [
+    "Lleva agua y protector solar."
+  ],
+  "normas": {
+    "si": [],
+    "no": []
+  },
+  "historia": "Texto histórico de prueba.",
+  "canales": [
+    {
+      "nombre": "Correo de prueba",
+      "url": "mailto:demo@example.org"
+    }
+  ]
+}

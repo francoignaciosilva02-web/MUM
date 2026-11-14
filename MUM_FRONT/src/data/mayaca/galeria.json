@@ -1,0 +1,57 @@
+{
+  "fotos": [
+    {
+      "id": "foto-01",
+      "categoria": "paisaje",
+      "url": null,
+      "alt": "Foto pendiente (paisaje)",
+      "credito": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "foto-02",
+      "categoria": "fauna",
+      "url": null,
+      "alt": "Foto pendiente (fauna)",
+      "credito": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "foto-03",
+      "categoria": "flora",
+      "url": null,
+      "alt": "Foto pendiente (flora)",
+      "credito": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "foto-04",
+      "categoria": "paisaje",
+      "url": null,
+      "alt": "Foto pendiente (paisaje)",
+      "credito": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "foto-05",
+      "categoria": "fauna",
+      "url": null,
+      "alt": "Foto pendiente (fauna)",
+      "credito": null,
+      "estado": "pendiente"
+    },
+    {
+      "id": "foto-06",
+      "categoria": "flora",
+      "url": null,
+      "alt": "Foto pendiente (flora)",
+      "credito": null,
+      "estado": "pendiente"
+    }
+  ],
+  "video": {
+    "src": "/video/mum-humedal.mp4",
+    "titulo": "El humedal en movimiento",
+    "estado": "pendiente"
+  }
+}

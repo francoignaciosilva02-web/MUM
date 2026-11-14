@@ -1,0 +1,23 @@
+/* Identidad gráfica MUM (RF11). Un solo lugar para cambiar la paleta. */
+:root {
+  --mum-turquesa: #00c9a7;
+  --mum-magenta: #ff007a;
+  --mum-marino: #0a1942;
+  --mum-celeste: #72a2ee;
+  --mum-oliva: #5d7a2e;
+  --mum-suave: #eef6f3;
+  --mum-linea: #dbe6e2;
+
+  /* Bootstrap 5.3 leyendo la paleta */
+  --bs-primary: var(--mum-marino);
+  --bs-primary-rgb: 10, 25, 66;
+  --bs-body-color: var(--mum-marino);
+  --bs-body-bg: #fbfdfc;
+  --bs-secondary-color: #52667f;
+  --bs-body-font-family: 'Ubuntu', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --bs-body-color-rgb: 10, 25, 66;
+  --bs-link-color: var(--mum-marino);
+  --bs-link-color-rgb: 10, 25, 66;
+  --bs-link-hover-color: var(--mum-marino);
+  --bs-link-hover-color-rgb: 10, 25, 66;
+}

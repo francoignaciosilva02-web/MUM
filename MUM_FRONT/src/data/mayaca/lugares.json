@@ -1,0 +1,114 @@
+[
+  {
+    "id": "acceso-agustin-avezon",
+    "orden": 1,
+    "nombre": "Acceso Agustín Avezón",
+    "posicionPlano": {
+      "x": 14,
+      "y": 62
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "acceso-puente-boco",
+    "orden": 2,
+    "nombre": "Acceso Puente Boco",
+    "posicionPlano": {
+      "x": 84,
+      "y": 30
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "aviario-playa-golondrinas",
+    "orden": 3,
+    "nombre": "Aviario Playa Golondrinas",
+    "posicionPlano": {
+      "x": 62,
+      "y": 74
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "lagunilla-tagua",
+    "orden": 4,
+    "nombre": "Lagunilla Tagua",
+    "posicionPlano": {
+      "x": 44,
+      "y": 50
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "piedras-tacitas",
+    "orden": 5,
+    "nombre": "Piedras Tacitas",
+    "posicionPlano": {
+      "x": 28,
+      "y": 24
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "plantas-medicinales",
+    "orden": 6,
+    "nombre": "Plantas medicinales",
+    "posicionPlano": {
+      "x": 74,
+      "y": 48
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "poza-del-8",
+    "orden": 7,
+    "nombre": "Poza del 8",
+    "posicionPlano": {
+      "x": 52,
+      "y": 22
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "sendero-las-culebras",
+    "orden": 8,
+    "nombre": "Sendero Las Culebras",
+    "posicionPlano": {
+      "x": 24,
+      "y": 80
+    },
+    "descripcion": null,
+    "estado": "pendiente",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  }
+]

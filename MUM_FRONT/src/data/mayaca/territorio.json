@@ -1,0 +1,14 @@
+{
+  "nombre": "Museo Urbano del Mayaca",
+  "nombreCorto": "MUM",
+  "territorio": "Humedal Mayaca, Quillota y La Cruz",
+  "intro": "El Museo Urbano del Mayaca presenta la biodiversidad y los lugares de interés del Humedal Mayaca, entre las comunas de Quillota y La Cruz.",
+  "logo": {
+    "src": "/logos/mum-logo.png",
+    "alt": "MUM humedal, Museo Urbano Mayaca"
+  },
+  "logoOscuro": {
+    "src": "/logos/mum-logo-fondo-oscuro.png",
+    "alt": "MUM humedal, Museo Urbano Mayaca"
+  }
+}

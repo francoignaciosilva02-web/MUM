@@ -1,0 +1,70 @@
+.mum-header { z-index: 1030; }
+
+.mum-navbar {
+  --bs-navbar-color: var(--mum-marino);
+  --bs-navbar-hover-color: var(--mum-marino);
+  --bs-navbar-active-color: var(--mum-marino);
+}
+
+/* Marca */
+.mum-brand__logo { height: 40px; width: auto; display: block; }
+.mum-brand__texto { font-weight: 700; color: var(--mum-marino); }
+@media (max-width: 575.98px) { .mum-brand__logo { height: 32px; } }
+
+/* Enlaces: el estado activo usa subrayado + negrita, no solo color (RNF03) */
+.mum-link {
+  color: var(--mum-marino);
+  font-weight: 500;
+  border-radius: 50rem;
+  padding: 0.5rem 0.9rem !important;
+  background: none;
+  border: 0;
+}
+.mum-link:hover { background: rgba(0, 201, 167, 0.14); }
+.mum-link.active { font-weight: 700; box-shadow: inset 0 -3px 0 var(--mum-turquesa); }
+.mum-link.dropdown-toggle::after { vertical-align: 0.15em; }
+
+/* Botón destacado */
+.mum-cta {
+  background: var(--mum-marino);
+  color: #fff;
+  font-weight: 700;
+  padding: 0.55rem 1.4rem;
+  border: 2px solid var(--mum-marino);
+}
+.mum-cta:hover, .mum-cta:active {
+  background: var(--mum-turquesa);
+  border-color: var(--mum-turquesa);
+  color: var(--mum-marino);
+}
+
+/* Submenú */
+.mum-dropdown { padding: 0.5rem; margin-top: 0.5rem; min-width: 15rem; }
+.mum-dropdown .dropdown-item { color: var(--mum-marino); padding: 0.55rem 1rem; }
+.mum-dropdown .dropdown-item:hover { background: rgba(0, 201, 167, 0.14); }
+.mum-dropdown .dropdown-item.active { background: var(--mum-turquesa); color: var(--mum-marino); font-weight: 700; }
+
+/* Foco visible (RNF02) */
+.mum-link:focus-visible,
+.mum-cta:focus-visible,
+.mum-brand:focus-visible,
+.navbar-toggler:focus-visible,
+.mum-dropdown .dropdown-item:focus-visible {
+  outline: 3px solid var(--mum-magenta);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+/* Saltar al contenido */
+.mum-skip {
+  position: absolute; left: 1rem; top: 0.5rem; z-index: 2000;
+  background: var(--mum-marino); color: #fff; padding: 0.5rem 1rem; border-radius: 50rem;
+}
+
+/* Celular y tableta: panel plegable */
+@media (max-width: 991.98px) {
+  .navbar-collapse { padding-bottom: 0.75rem; }
+  .mum-link { padding: 0.7rem 1rem !important; text-align: left; width: 100%; }
+  .mum-dropdown { box-shadow: none !important; background: rgba(0, 201, 167, 0.1); margin-top: 0.25rem; }
+  .mum-cta { display: block; text-align: center; }
+}

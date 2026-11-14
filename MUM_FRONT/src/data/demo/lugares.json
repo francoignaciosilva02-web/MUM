@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sector-norte",
+    "orden": 1,
+    "nombre": "Sector norte",
+    "posicionPlano": {
+      "x": 30,
+      "y": 30
+    },
+    "descripcion": "Lugar de prueba.",
+    "estado": "prueba",
+    "ubicacion": {
+      "url": "https://www.openstreetmap.org/"
+    },
+    "plano": null,
+    "fotos": []
+  },
+  {
+    "id": "sector-sur",
+    "orden": 2,
+    "nombre": "Sector sur",
+    "posicionPlano": {
+      "x": 65,
+      "y": 65
+    },
+    "descripcion": null,
+    "estado": "prueba",
+    "ubicacion": null,
+    "plano": null,
+    "fotos": []
+  }
+]

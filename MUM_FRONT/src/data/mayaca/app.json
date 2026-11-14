@@ -1,0 +1,19 @@
+{
+  "android": null,
+  "ios": null,
+  "descripcion": "La app del MUM acompaña el recorrido por el humedal.",
+  "beneficios": [
+    {
+      "titulo": "Mapa",
+      "texto": "Los lugares del recorrido."
+    },
+    {
+      "titulo": "Sonidos de aves",
+      "texto": "Para reconocer cada canto."
+    },
+    {
+      "titulo": "Normas",
+      "texto": "Cómo cuidar el humedal."
+    }
+  ]
+}

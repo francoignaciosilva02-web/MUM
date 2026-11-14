@@ -1,0 +1,47 @@
+{
+  "enlaces": [
+    {
+      "label": "Inicio",
+      "to": "/",
+      "end": true
+    },
+    {
+      "label": "Biodiversidad",
+      "children": [
+        {
+          "label": "Toda la biodiversidad",
+          "to": "/biodiversidad",
+          "end": true
+        },
+        {
+          "label": "Aves",
+          "to": "/aves"
+        },
+        {
+          "label": "Otra fauna",
+          "to": "/fauna"
+        },
+        {
+          "label": "Flora",
+          "to": "/flora"
+        }
+      ]
+    },
+    {
+      "label": "Lugares",
+      "to": "/lugares"
+    },
+    {
+      "label": "Galería",
+      "to": "/galeria"
+    },
+    {
+      "label": "Aplicación",
+      "to": "/aplicacion"
+    }
+  ],
+  "cta": {
+    "label": "Visita",
+    "to": "/visita"
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ave-01",
+    "categoria": "aves",
+    "nombreComun": "Ave de prueba",
+    "nombreCientifico": "Dato de prueba",
+    "descripcion": "Ficha de otro humedal.",
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Laguna"
+      }
+    ],
+    "fuente": "Dato de prueba",
+    "foto": null,
+    "estado": "prueba",
+    "destacada": true,
+    "lugares": [
+      "sector-norte"
+    ]
+  },
+  {
+    "id": "flora-01",
+    "categoria": "flora",
+    "nombreComun": "Planta de prueba",
+    "nombreCientifico": null,
+    "descripcion": null,
+    "atributos": [],
+    "fuente": null,
+    "foto": null,
+    "estado": "prueba",
+    "destacada": true,
+    "lugares": [
+      "sector-sur"
+    ]
+  }
+]

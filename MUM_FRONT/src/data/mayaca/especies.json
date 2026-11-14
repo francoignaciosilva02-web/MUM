@@ -1,0 +1,187 @@
+[
+  {
+    "id": "aves-01",
+    "categoria": "aves",
+    "nombreComun": "Ficha de ejemplo · Aves 1",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Por confirmar"
+      }
+    ],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "acceso-agustin-avezon",
+      "aviario-playa-golondrinas"
+    ]
+  },
+  {
+    "id": "aves-02",
+    "categoria": "aves",
+    "nombreComun": "Ficha de ejemplo · Aves 2",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "lagunilla-tagua",
+      "plantas-medicinales"
+    ]
+  },
+  {
+    "id": "aves-03",
+    "categoria": "aves",
+    "nombreComun": "Ficha de ejemplo · Aves 3",
+    "nombreCientifico": null,
+    "descripcion": null,
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Por confirmar"
+      }
+    ],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "poza-del-8",
+      "acceso-agustin-avezon"
+    ]
+  },
+  {
+    "id": "aves-04",
+    "categoria": "aves",
+    "nombreComun": "Ficha de ejemplo · Aves 4",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "acceso-puente-boco",
+      "lagunilla-tagua"
+    ]
+  },
+  {
+    "id": "fauna-01",
+    "categoria": "fauna",
+    "nombreComun": "Ficha de ejemplo · Otra fauna 1",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Por confirmar"
+      }
+    ],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "piedras-tacitas",
+      "poza-del-8"
+    ]
+  },
+  {
+    "id": "fauna-02",
+    "categoria": "fauna",
+    "nombreComun": "Ficha de ejemplo · Otra fauna 2",
+    "nombreCientifico": null,
+    "descripcion": null,
+    "atributos": [],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": true,
+    "lugares": [
+      "sendero-las-culebras",
+      "acceso-puente-boco"
+    ]
+  },
+  {
+    "id": "fauna-03",
+    "categoria": "fauna",
+    "nombreComun": "Ficha de ejemplo · Otra fauna 3",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Por confirmar"
+      }
+    ],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": false,
+    "lugares": [
+      "aviario-playa-golondrinas",
+      "piedras-tacitas"
+    ]
+  },
+  {
+    "id": "flora-01",
+    "categoria": "flora",
+    "nombreComun": "Ficha de ejemplo · Flora 1",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": false,
+    "lugares": [
+      "plantas-medicinales",
+      "sendero-las-culebras"
+    ]
+  },
+  {
+    "id": "flora-02",
+    "categoria": "flora",
+    "nombreComun": "Ficha de ejemplo · Flora 2",
+    "nombreCientifico": null,
+    "descripcion": null,
+    "atributos": [
+      {
+        "k": "Hábitat",
+        "v": "Por confirmar"
+      }
+    ],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": false,
+    "lugares": [
+      "acceso-agustin-avezon",
+      "aviario-playa-golondrinas"
+    ]
+  },
+  {
+    "id": "flora-03",
+    "categoria": "flora",
+    "nombreComun": "Ficha de ejemplo · Flora 3",
+    "nombreCientifico": null,
+    "descripcion": "Texto de ejemplo. La descripción real la entrega la contraparte.",
+    "atributos": [],
+    "fuente": "Pendiente",
+    "foto": null,
+    "estado": "pendiente",
+    "destacada": false,
+    "lugares": [
+      "lagunilla-tagua",
+      "plantas-medicinales"
+    ]
+  }
+]

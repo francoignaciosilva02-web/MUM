@@ -1,0 +1,119 @@
+/* ---------- Base ---------- */
+:focus-visible { outline: 3px solid var(--mum-magenta); outline-offset: 2px; box-shadow: none !important; }
+main:focus { outline: none; }
+.text-muted, .text-secondary { color: var(--bs-secondary-color) !important; }
+img { max-width: 100%; }
+
+/* ---------- Botones ---------- */
+.btn-primary {
+  --bs-btn-bg: var(--mum-marino); --bs-btn-border-color: var(--mum-marino); --bs-btn-color: #fff;
+  --bs-btn-hover-bg: var(--mum-turquesa); --bs-btn-hover-border-color: var(--mum-turquesa); --bs-btn-hover-color: var(--mum-marino);
+  --bs-btn-active-bg: var(--mum-turquesa); --bs-btn-active-border-color: var(--mum-turquesa); --bs-btn-active-color: var(--mum-marino);
+  font-weight: 700;
+}
+.btn-outline-primary {
+  --bs-btn-color: var(--mum-marino); --bs-btn-border-color: var(--mum-marino);
+  --bs-btn-hover-bg: var(--mum-marino); --bs-btn-hover-border-color: var(--mum-marino); --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--mum-marino); --bs-btn-active-border-color: var(--mum-marino); --bs-btn-active-color: #fff;
+  font-weight: 500;
+}
+.btn-turquesa { background: var(--mum-turquesa); border: 2px solid var(--mum-turquesa); color: var(--mum-marino); font-weight: 700; }
+.btn-turquesa:hover { background: var(--mum-marino); border-color: var(--mum-marino); color: #fff; }
+
+/* ---------- Bandas de título ---------- */
+.mum-banda { color: var(--mum-marino); }
+.mum-banda--turquesa { background: var(--mum-turquesa); }
+.mum-banda--celeste { background: var(--mum-celeste); }
+.mum-banda--marino { background: var(--mum-marino); color: #fff; }
+.mum-banda--oliva { background: var(--mum-oliva); color: #fff; }
+
+/* ---------- Hero ---------- */
+.mum-hero { isolation: isolate; }
+.mum-blob { position: absolute; z-index: -1; width: 480px; height: 420px; right: -80px; top: -30px; background: var(--mum-turquesa); opacity: 0.28; animation: mum-morph 14s ease-in-out infinite; pointer-events: none; }
+.mum-blob--2 { width: 260px; height: 240px; right: 220px; top: 230px; background: var(--mum-celeste); opacity: 0.35; animation-duration: 19s; animation-direction: reverse; }
+@keyframes mum-morph {
+  0%, 100% { border-radius: 58% 42% 55% 45% / 48% 58% 42% 52%; }
+  50% { border-radius: 40% 60% 38% 62% / 60% 40% 60% 40%; transform: translate(14px, -10px) rotate(6deg); }
+}
+.mum-dato { border-left: 3px solid var(--mum-turquesa); padding-left: 0.75rem; }
+
+/* ---------- Tarjetas de acceso ---------- */
+.mum-acceso { display: flex; flex-direction: column; gap: 0.25rem; min-height: 220px; position: relative; overflow: hidden; text-decoration: none; transition: transform 0.2s; }
+.mum-acceso:hover { transform: translateY(-3px); }
+.mum-acceso--turquesa { background: var(--mum-turquesa); color: var(--mum-marino); }
+.mum-acceso--oliva { background: var(--mum-oliva); color: #fff; }
+.mum-acceso--celeste { background: var(--mum-celeste); color: var(--mum-marino); }
+.mum-acceso--marino { background: var(--mum-marino); color: #fff; }
+.mum-acceso__ilu { position: absolute; right: -14px; bottom: -14px; width: 150px; height: 150px; opacity: 0.28; }
+.mum-acceso__ver { margin-top: auto; font-weight: 700; }
+
+/* ---------- Tarjetas de especie / lugar ---------- */
+.mum-tarjeta { background: var(--mum-suave); transition: outline-color 0.2s; outline: 2px solid transparent; text-decoration: none; color: inherit; display: block; height: 100%; }
+.mum-tarjeta:hover { outline-color: var(--mum-turquesa); color: inherit; }
+.mum-imagen { background: #e9eff9; }
+.mum-imagen img { object-fit: cover; }
+.mum-imagen__reserva { display: flex; align-items: center; justify-content: center; color: var(--mum-marino); }
+.mum-imagen__reserva svg { width: 58%; height: 58%; }
+.mum-insignia { color: var(--bs-secondary-color) !important; font-weight: 500; }
+.mum-nota { background: var(--mum-suave); border-left: 4px solid var(--mum-turquesa); }
+.mum-chip { border: 1.5px solid var(--mum-marino); color: var(--mum-marino); background: transparent; text-decoration: none; font-weight: 500; }
+.mum-chip:hover, .mum-chip.active { background: var(--mum-marino); color: #fff; }
+
+/* ---------- Carrusel horizontal ---------- */
+.mum-carrusel { display: flex; gap: 1rem; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 0.5rem; scrollbar-width: none; }
+.mum-carrusel::-webkit-scrollbar { display: none; }
+.mum-carrusel > * { flex: 0 0 190px; scroll-snap-align: start; }
+
+/* ---------- Video ---------- */
+.mum-video { aspect-ratio: 4 / 5; max-width: 360px; width: 100%; background: var(--mum-marino); }
+.mum-video--ancho { aspect-ratio: 16 / 9; max-width: 720px; }
+.mum-video video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.mum-video__aviso { background: linear-gradient(160deg, #0a1942, #1d4a7a); }
+.mum-video__btn { position: absolute; right: 12px; bottom: 12px; }
+
+/* ---------- Mapa ---------- */
+.mum-mapa { aspect-ratio: 5 / 4; background: #e3efe6; }
+.mum-mapa > svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.mum-pin { position: absolute; transform: translate(-50%, -50%); width: 40px; height: 40px; border-radius: 50%; border: 3px solid #fff; background: var(--mum-marino); color: #fff; font-weight: 700; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); transition: transform 0.2s, background 0.2s; }
+.mum-pin:hover, .mum-pin[aria-pressed='true'] { background: var(--mum-magenta); transform: translate(-50%, -50%) scale(1.2); }
+
+/* ---------- Lista numerada ---------- */
+.mum-lista { list-style: none; counter-reset: paso; padding: 0; margin: 0; }
+.mum-lista li { counter-increment: paso; border-bottom: 1px solid var(--mum-linea); }
+.mum-lista a { display: flex; align-items: center; gap: 0.9rem; padding: 0.85rem 0.25rem; font-weight: 500; text-decoration: none; }
+.mum-lista a::before { content: counter(paso); flex: none; width: 30px; height: 30px; border-radius: 50%; background: var(--mum-turquesa); color: var(--mum-marino); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.95rem; }
+.mum-lista a:hover { background: var(--mum-suave); }
+
+/* ---------- Pestañas ---------- */
+.mum-tabs { display: flex; flex-wrap: wrap; gap: 0.25rem; border-bottom: 1px solid var(--mum-linea); }
+.mum-tabs button { background: none; border: 0; border-bottom: 3px solid transparent; font-weight: 500; padding: 0.6rem 1rem; color: var(--mum-marino); }
+.mum-tabs button[aria-selected='true'] { border-bottom-color: var(--mum-turquesa); font-weight: 700; }
+
+/* ---------- Banda de app y pie ---------- */
+.mum-app { background: var(--mum-marino); color: #fff; }
+.mum-app p { color: #c3d1e8; }
+.mum-footer { background: var(--mum-marino); color: #c3d1e8; }
+.mum-footer a { color: #fff; text-decoration: none; }
+.mum-footer a:hover { text-decoration: underline; }
+
+/* ---------- Diálogos ---------- */
+.mum-dialog { width: min(720px, 92vw); max-height: 90vh; color: var(--mum-marino); }
+.mum-dialog::backdrop { background: rgba(10, 25, 66, 0.8); }
+.mum-opcion[aria-selected='true'] { background: var(--mum-suave); }
+
+/* ---------- Pie de página: reducción de movimiento e impresión ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .mum-blob { animation: none; }
+  .mum-acceso, .mum-pin { transition: none; }
+  html { scroll-behavior: auto; }
+}
+@media print { .mum-blob { display: none; } }
+
+.mum-volver { border-bottom: 2px solid var(--mum-turquesa); }
+
+/* Refuerzo: estos estilos no dependen de qué variante de Bootstrap se cargue */
+.btn-primary { background-color: var(--mum-marino); border-color: var(--mum-marino); color: #fff; }
+.btn-primary:hover, .btn-primary:focus-visible, .btn-primary:active { background-color: var(--mum-turquesa); border-color: var(--mum-turquesa); color: var(--mum-marino); }
+.btn-outline-primary { color: var(--mum-marino); border-color: var(--mum-marino); background-color: transparent; }
+.btn-outline-primary:hover, .btn-outline-primary:active { background-color: var(--mum-marino); color: #fff; }
+@media (max-width: 575.98px) { .mum-blob { width: 300px; height: 260px; right: -110px; } .mum-blob--2 { display: none; } }

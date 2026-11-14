@@ -1,0 +1,19 @@
+{
+  "estado": "pendiente",
+  "recomendaciones": [],
+  "normas": {
+    "si": [
+      "Camina por los senderos",
+      "Observa en silencio",
+      "Lleva de vuelta tu basura"
+    ],
+    "no": [
+      "No alimentes a los animales",
+      "No recojas plantas ni piedras",
+      "No hagas fuego",
+      "No uses música a alto volumen"
+    ]
+  },
+  "historia": null,
+  "canales": []
+}
